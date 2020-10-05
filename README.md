@@ -8,7 +8,7 @@ A working react native project. Tested on react-native 0.44 and above
 A working CocoaPods installation [CocoaPods - Getting Started](https://guides.cocoapods.org/using/getting-started.html)
 
 ## Installation
-1. Install from npm  `npm install --save react-native-trustkit-wrapper` or `yarn add react-native-trustkit-wrapper`
+1. Install from npm  `npm install --save react-native-trustkit-wrapper@git+https://github.com/fauzzi/react-native-trustkit.git`
 2. Run `react-native link react-native-trustkit-wrapper` to link ios and android project
 
 ### iOS
@@ -49,6 +49,7 @@ configureTrustKit({
 });
 
 ```
+
 
 
 See the [TrustKit documentation](https://github.com/datatheorem/TrustKit) for more information
