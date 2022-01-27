@@ -28,7 +28,7 @@ const iosValidate = ajv.compile({
             },
             PublicKeyHashes: {
               type: 'array',
-              minItems: 2,
+              minItems: 1,
               items: {
                 oneOf: [
                   { type: 'string' },
